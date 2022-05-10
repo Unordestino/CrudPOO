@@ -1,0 +1,47 @@
+input[readonly="1"]{
+    background-color: #e0e0e0;
+    border: 1px solid #b0b0b0;;
+}
+
+form{
+    display: table;
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px;
+}
+
+form > label, form > input, form > select{
+    float: left;
+    margin-top: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+form > label{
+    clear: both;
+    width: 25%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+table{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    font-family: 'Open Sans', 'Helvetica Neue';
+}
+
+table > thead > tr{
+    background-color: whitesmoke;
+}
+
+table td{
+    padding: 5px;
+}
+
+button{
+    background-color: white;
+    border: 1px solid #888;
+    margin-top: 10px;
+    padding: 4px;
+    cursor: pointer;
+}
